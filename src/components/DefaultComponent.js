@@ -32,7 +32,7 @@ class DefaultComponent extends Component {
       <div className="outer-container">
         <div className="title-div">
           <div className="text"><h1>{this.props.title}</h1></div>
-          <div className="button" onClick={this.addContainer}><h1>Add Cont</h1></div>
+          <div className="button" onClick={this.addContainer}><h1>Add container</h1></div>
           <div className="button" onClick={this.addTxt}><h1>Add Text</h1></div>
         </div>
         <div className="inner-container">
